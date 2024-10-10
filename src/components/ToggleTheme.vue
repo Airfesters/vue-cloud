@@ -45,7 +45,7 @@ const isDarkMode = ref(true)  // Default to dark mode
   <style>
   /* Light and Dark mode colors */
   [data-theme='light'] {
-    --bg-color: #f0f0f0;
+    --bg-color: #2d2d2d;
     --text-color: gray;
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
