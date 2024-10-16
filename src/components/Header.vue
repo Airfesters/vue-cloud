@@ -83,7 +83,7 @@ onUnmounted(() => {
 
           <!-- Icons -->
           <div class="flex items-center space-x-2">
-            <!-- <ToggleTheme/> -->
+            <ToggleTheme/>
             <RouterLink to="/">
               <!-- Notification Icon Button -->
               <button
