@@ -8,6 +8,15 @@ import PayView from './PayView.vue';
 
 </script>
 <template>
+      <!-- Meter Details -->
+      <div class="flex flex-col items-center justify-center">
+      <v-text-field
+        label="Enter Meter Number"
+        type="number"
+        class="mb-4"
+      ></v-text-field>
+    <p>Account Name:</p>
+  </div>
 
 <MainDashboard/>
 <PowerView/>
