@@ -13,7 +13,7 @@
           </p>
           <p class="text-black text-sm mt-2">Health: 80%</p>
         </div>
-        <div class="mb-4 flex items-center">
+    <!--     <div class="mb-4 flex items-center">
           <span class="text-black text-sm font-bold">
             <span v-if="showBalance">Bal: ₦{{ walletBalance }}</span>
             <span v-else>Bal: {{ '●●●●●●●●' }}</span>
@@ -21,7 +21,7 @@
           <span @click="toggleBalance" class="cursor-pointer text-black ml-2">
             <i :class="showBalance ? 'mdi mdi-eye' : 'mdi mdi-eye-off'"></i>
           </span>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
