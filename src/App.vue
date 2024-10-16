@@ -3,7 +3,7 @@
   <Header />
   <RouterView />
  
-  <Navbar />
+  <!-- <Navbar /> -->
 </div>
   <div v-else>
     <InactiveTab />
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import Navbar from '@/components/Navbar.vue';
+// import Navbar from '@/components/Navbar.vue';
 import Header from '@/components/Header.vue';
 import { RouterView } from 'vue-router';
 
