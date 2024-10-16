@@ -6,25 +6,15 @@ import Billing from './Billing.vue';
 </script>
 
 <template>
-      <!-- Add Funds Form -->
-      <div class="flex flex-col items-center justify-center">
-      <v-text-field
-        label="Enter Meter Number"
-        type="number"
-        class="mb-4"
-      ></v-text-field>
-    <p>Account Name:</p>
-  </div>
-
   <section class="py-4">
     <div class="container-xl lg:container m-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
-        <Card>
+      <div class="rounded-lg">
+        <!-- <Card> -->
           <Dashboard/>
-        </Card>
-        <Card bg="bg-green-100">
-         <Billing/>
-        </Card>
+        <!-- </Card> -->
+        <!-- <Card bg="bg-green-100"> -->
+         <!-- <Billing/> -->
+        <!-- </Card> -->
       </div>
     </div>
   </section>

@@ -20,7 +20,7 @@ const headerText = ref('MooonSIGN');
 
 // Define a mapping of route paths to the header text
 const routeToHeaderMap = {
-  '/': 'Vue CLoud',
+  '/': 'MooonSIGN',
   '/power': 'MooonPower',
   '/pay': 'Pay',
   '/device': 'MooonDevice',

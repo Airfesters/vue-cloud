@@ -20,5 +20,5 @@ import PayView from './PayView.vue';
 
 <MainDashboard/>
 <PowerView/>
-<PayView/>
+<!-- <PayView/> -->
 </template>
