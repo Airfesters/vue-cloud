@@ -20,7 +20,7 @@ const headerText = ref('MooonSIGN');
 
 // Define a mapping of route paths to the header text
 const routeToHeaderMap = {
-  '/': 'MooonSIGN',
+  '/': 'Rev. 6:2',
   '/power': 'MooonPower',
   '/pay': 'Pay',
   '/device': 'MooonDevice',
@@ -76,7 +76,9 @@ onUnmounted(() => {
     >
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
-          <!-- Logo -->
+
+          
+          <!-- Logo Text -->
           <RouterLink class="flex items-center" to="/">
             <span class="md:block text-white text-2xl font-bold ml-2">{{ headerText }}</span>
           </RouterLink>
