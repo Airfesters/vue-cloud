@@ -14,6 +14,8 @@ import PayView from './PayView.vue';
         label="Enter Meter Number"
         type="number"
         class="mb-4"
+         maxlength="12"
+        clearable
       ></v-text-field>
     <p>Account Name:</p>
   </div>
